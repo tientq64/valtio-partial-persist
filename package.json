@@ -1,0 +1,33 @@
+{
+    "name": "valtio-partial-persist",
+    "version": "0.1.0",
+    "description": "A lightweight utility for selectively persisting parts of a Valtio store to storage.",
+    "author": {
+        "name": "tientq64",
+        "email": "tientq64@gmail.com",
+        "url": "https://github.com/tientq64"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/tientq64/valtio-partial-persist"
+    },
+    "bugs": {
+        "url": "https://github.com/tientq64/valtio-partial-persist/issues"
+    },
+    "type": "module",
+    "files": [
+        "dist"
+    ],
+    "scripts": {
+        "build": "tsup-node",
+        "watch": "tsup-node --watch"
+    },
+    "devDependencies": {
+        "prettier": "^3.5.3",
+        "prettier-plugin-jsdoc": "^1.3.2",
+        "tsup": "^8.5.0",
+        "typescript": "^5.8.3",
+        "valtio": "^2.1.5"
+    },
+    "license": "MIT"
+}
