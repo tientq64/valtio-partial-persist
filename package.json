@@ -14,13 +14,19 @@
     "bugs": {
         "url": "https://github.com/tientq64/valtio-partial-persist/issues"
     },
+    "keywords": [
+        "valtio",
+        "persist",
+        "local-storage"
+    ],
     "type": "module",
     "files": [
         "dist"
     ],
     "scripts": {
         "build": "tsup-node",
-        "watch": "tsup-node --watch"
+        "watch": "tsup-node --watch",
+        "test": "echo 'no test'"
     },
     "devDependencies": {
         "prettier": "^3.5.3",
