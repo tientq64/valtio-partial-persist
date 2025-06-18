@@ -1,6 +1,6 @@
 {
     "name": "valtio-partial-persist",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "description": "A lightweight utility for selectively persisting parts of a Valtio store to storage.",
     "author": {
         "name": "tientq64",
@@ -23,6 +23,13 @@
     "files": [
         "dist"
     ],
+    "types": "dist/index.d.ts",
+    "exports": {
+        ".": {
+            "import": "./dist/index.js",
+            "require": "./dist/index.cjs"
+        }
+    },
     "scripts": {
         "build": "tsup-node",
         "watch": "tsup-node --watch",

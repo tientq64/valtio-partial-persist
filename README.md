@@ -6,7 +6,7 @@ A lightweight utility for selectively persisting parts of a Valtio store to stor
 
 Install:
 
-```bash
+```shell
 npm i valtio-partial-persist
 ```
 
